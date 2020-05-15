@@ -27,14 +27,14 @@ RSpec.describe "Contestants Index Page", type: :feature do
 
     visit "/contestants"
 
-    within "contestant-#{jay.id}" do
+    within ".contestant-#{jay.id}" do
       expect(page).to have_content("#{jay.name}")
-      expect(page).to have_content("#{jay.projects}")
+      expect(page).to have_content("News Chic")
     end
 
-    within "contestant-#{gretchen.id}" do
+    within ".contestant-#{gretchen.id}" do
       expect(page).to have_content("#{gretchen.name}")
-      expect(page).to have_content("#{gretchen.projects}")
+      expect(page).to have_content("News Chic, Upholstery Tuxedo")
     end
 
 
