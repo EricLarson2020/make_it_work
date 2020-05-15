@@ -242,6 +242,7 @@
         "lines": [
           1,
           null,
+          1,
           null
         ]
       },
@@ -361,8 +362,26 @@
           1,
           null
         ]
+      },
+      "/Users/ericlarson/turing/2module/assessments/make_it_work/app/controllers/projects_controller.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/ericlarson/turing/2module/assessments/make_it_work/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1589555411
+    "timestamp": 1589555713
   }
 }
