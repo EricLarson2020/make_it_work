@@ -113,7 +113,7 @@ RSpec.describe "Project Show Page", type: :feature do
     visit "/contestants"
 
     expect(page).to have_content("Bob")
-    expect(page).to have_content("boardfit")
+    expect(page).to have_content("Bob Projects: Boardfit")
 
   end
 end

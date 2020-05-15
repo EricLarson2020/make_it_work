@@ -3,3 +3,16 @@
 <p>Challenge Theme: <%= @project.challenge.theme %></p>
 <p>Number of Contestants: <%=@project.contestant_count%></p>
 <p>Average Contestant Experience: <%=@project.contestants.average_years_of_experience%> years</p>
+
+<%=form_tag("/projects/#{@project.id}/contestants", method: :post) do %>
+  <%= label_tag :name %>
+  <%= text_field_tag :name %>
+  <%= label_tag :age %>
+  <%= text_field_tag :age %>
+  <%= label_tag :hometown %>
+  <%= text_field_tag :hometown %>
+  <%= label_tag :years_of_experience %>
+  <%= text_field_tag :years_of_experience %>
+
+  <%= submit_tag 'Add Contestant To Project' %>
+<% end %>

@@ -3,6 +3,6 @@
 <% @contestants.each do |contestant| %>
 <section class="contestant-<%=contestant.id%>">
 <p>Contestant Name: <%= contestant.name %></p>
-<p>Contestant Projects: <%=contestant.project_names%></p>
+<p><%=contestant.name%> Projects: <%=contestant.project_names%></p>
 </section>
 <% end %>
