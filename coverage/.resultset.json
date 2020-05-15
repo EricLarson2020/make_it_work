@@ -252,6 +252,43 @@
           null
         ]
       },
+      "/Users/ericlarson/turing/2module/assessments/make_it_work/spec/features/projects/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/ericlarson/turing/2module/assessments/make_it_work/spec/models/challenge_spec.rb": {
         "lines": [
           1,
@@ -383,6 +420,6 @@
         ]
       }
     },
-    "timestamp": 1589555965
+    "timestamp": 1589556417
   }
 }
