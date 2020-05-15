@@ -7,4 +7,7 @@ class Project <ApplicationRecord
   def contestant_count
     contestants.count
   end
+
+  
+
 end
